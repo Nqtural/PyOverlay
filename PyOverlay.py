@@ -80,7 +80,7 @@ MOJANG_API_PLAYER_LIMIT = 10
 
 
 # Misc standalone classes which make the code more readable ========================================================= #
-class Colours:
+class Colors:
     PINK = '\033[95m'
     BLUE = '\033[94m'
     CYAN = '\033[96m'
@@ -93,7 +93,7 @@ class Colours:
     ENDC = '\033[0m'
 
     @staticmethod
-    def get_stars_colour(stars: int):
+    def get_stars_color(stars: int):
         if stars < 100:
             return "\033[90m\033[1m"
         elif stars < 200:
@@ -157,7 +157,7 @@ class Colours:
         else:
             return "\033[91m\033[2m"
 
-    def get_fkdr_colour(fkdr: float):
+    def get_fkdr_color(fkdr: float):
         if fkdr < 1:
             return "\033[90m\033[1m"
         elif fkdr < 2:
@@ -175,7 +175,7 @@ class Colours:
         else:
             return "\033[96m\033[1m"
 
-    def get_winstreak_colour(winstreak: int):
+    def get_winstreak_color(winstreak: int):
         if winstreak < 1:
             return "\033[90m\033[1m"
         elif winstreak < 10:
@@ -193,7 +193,7 @@ class Colours:
         else:
             return "\033[96m\033[1m"
 
-    def get_wlr_colour(wlr: float):
+    def get_wlr_color(wlr: float):
         if wlr < 1:
             return "\033[90m\033[1m"
         elif wlr < 2:
@@ -211,7 +211,7 @@ class Colours:
         else:
            return "\033[96m\033[1m"
 
-    def get_bblr_colour(bblr: float):
+    def get_bblr_color(bblr: float):
         if bblr < 1:
             return "\033[90m\033[1m"
         elif bblr < 2:
@@ -229,7 +229,7 @@ class Colours:
         else:
             return "\033[96m\033[1m"
 
-    def get_wins_colour(wins: int):
+    def get_wins_color(wins: int):
         if wins < 1000:
             return "\033[90m\033[1m"
         elif wins < 2000:
@@ -247,7 +247,7 @@ class Colours:
         else:
             return "\033[96m\033[1m"
 
-    def get_finals_colour(finals: int):
+    def get_finals_color(finals: int):
         if finals < 1000:
             return "\033[90m\033[1m"
         elif finals < 5000:
@@ -265,7 +265,7 @@ class Colours:
         else:
             return "\033[96m\033[1m"
 
-    def get_index_colour(index: int):
+    def get_index_color(index: int):
         if index < 1000:
             return "\033[90m\033[1m"
         elif index < 3000:
@@ -290,9 +290,9 @@ class Client:
 
 
 class APIStatus:
-    UNKNOWN = Colours.BOLD + "Unknown" + Colours.ENDC
-    REACHABLE = Colours.BOLD + Colours.GREEN + "Reachable" + Colours.ENDC
-    UNREACHABLE = Colours.BOLD + Colours.RED + "Unreachable" + Colours.ENDC
+    UNKNOWN = Colors.BOLD + "Unknown" + Colors.ENDC
+    REACHABLE = Colors.BOLD + Colors.GREEN + "Reachable" + Colors.ENDC
+    UNREACHABLE = Colors.BOLD + Colors.RED + "Unreachable" + Colors.ENDC
 
 
 class ConfigManager:
@@ -526,10 +526,10 @@ class Model:
 
 
 class Player:
-    rank_colours: dict[str, str] = {"MVP_PLUS": Colours.CYAN + Colours.BOLD, "MVP": Colours.CYAN + Colours.BOLD,
-                                    "SUPERSTAR": Colours.GOLD + "\033[2m",
-                                    "VIP": Colours.GREEN + Colours.BOLD,
-                                    "VIP_PLUS": Colours.GREEN + Colours.BOLD, "NON": ""}
+    rank_colors: dict[str, str] = {"MVP_PLUS": Colors.CYAN + Colors.BOLD, "MVP": Colors.CYAN + Colors.BOLD,
+                                    "SUPERSTAR": Colors.GOLD + "\033[2m",
+                                    "VIP": Colors.GREEN + Colors.BOLD,
+                                    "VIP_PLUS": Colors.GREEN + Colors.BOLD, "NON": ""}
 
     def __init__(self, ign: str, model_: Model, uuid_: str = None, nicked: bool = False):
         self._model = model_
@@ -556,8 +556,8 @@ class Player:
 
     def to_string(self, form: str) -> str:
         return form.format(
-            self.rank_colours[self.rank], self.in_game_name,
-            self._get_tag_colour(), self._get_tag(),
+            self.rank_colors[self.rank], self.in_game_name,
+            self._get_tag_color(), self._get_tag(),
             self.stars,
             self.winstreak,
             self.fkdr,
@@ -566,14 +566,14 @@ class Player:
             self.wins,
             self.finals,
             self.index,
-            stars_colour=Colours.get_stars_colour(self.stars),
-            fkdr_colour=Colours.get_fkdr_colour(self.fkdr),
-            winstreak_colour=Colours.get_winstreak_colour(self.winstreak),
-            wlr_colour=Colours.get_wlr_colour(self.wlr),
-            bblr_colour=Colours.get_bblr_colour(self.bblr),
-            wins_colour=Colours.get_wins_colour(self.wins),
-            finals_colour=Colours.get_finals_colour(self.finals),
-            index_colour=Colours.get_index_colour(self.index),
+            stars_color=Colors.get_stars_color(self.stars),
+            fkdr_color=Colors.get_fkdr_color(self.fkdr),
+            winstreak_color=Colors.get_winstreak_color(self.winstreak),
+            wlr_color=Colors.get_wlr_color(self.wlr),
+            bblr_color=Colors.get_bblr_color(self.bblr),
+            wins_color=Colors.get_wins_color(self.wins),
+            finals_color=Colors.get_finals_color(self.finals),
+            index_color=Colors.get_index_color(self.index),
         )
 
     def _populate_player_data(self):
@@ -698,13 +698,13 @@ class Player:
                 self._model.set_mojang_api_reachable(False)
                 time.sleep(8)  # arbitrary number of seconds to sleep. Pulled it out of my ass
 
-    def _get_tag_colour(self):
+    def _get_tag_color(self):
         if self.uuid == "54968fd589a94732b02dad8d9162175f":  # Kopamed's uuid
-            return Colours.CYAN + Colours.BOLD
+            return Colors.CYAN + Colors.BOLD
         elif self.nicked:
-            return Colours.RED
+            return Colors.RED
         elif self.party:
-            return Colours.BLUE
+            return Colors.BLUE
 
         return ""
 
@@ -842,35 +842,35 @@ class View:
             if server_name == "bedwarspractice.club":
                 print(
                     "Hypixel: {:<11} | ".format(self._model.hypixel_api_reachable) +
-                    Colours.GOLD + "Bedwarspractice does not have a stats api but hypixel stats can be displayed" +
-                    Colours.ENDC
+                    Colors.GOLD + "Bedwarspractice does not have a stats api but hypixel stats can be displayed" +
+                    Colors.ENDC
                 )
             else:
                 print("Hypixel: " + self._model.hypixel_api_reachable)
 
             print("Hypixel API key: ", end="")
             if self._model.api_key is None:
-                print(Colours.BOLD + Colours.RED + "Not found!" + Colours.ENDC)
+                print(Colors.BOLD + Colors.RED + "Not found!" + Colors.ENDC)
             else:
                 print(
-                    Colours.CYAN + self._model.api_key[:int(len(self._model.api_key) / 2)] +
-                    ("*" * int(len(self._model.api_key) / 2)) + Colours.ENDC
+                    Colors.CYAN + self._model.api_key[:int(len(self._model.api_key) / 2)] +
+                    ("*" * int(len(self._model.api_key) / 2)) + Colors.ENDC
                 )
 
     def runtime_stats(self):
-        print(Colours.CYAN + Colours.BOLD + "PyOverlay" + Colours.BLUE + " v" + str(VERSION) + Colours.ENDC
-              + " | " + Colours.GOLD + self._model.client + Colours.ENDC)
-        print("Players cached: " + Colours.BOLD + str(self._model.players_cached()) + Colours.ENDC)
+        print(Colors.CYAN + Colors.BOLD + "PyOverlay" + Colors.BLUE + " v" + str(VERSION) + Colors.ENDC
+              + " | " + Colors.GOLD + self._model.client + Colors.ENDC)
+        print("Players cached: " + Colors.BOLD + str(self._model.players_cached()) + Colors.ENDC)
         print("Mojang: " + str(self._model.mojang_api_reachable))
         self.sever_stats()
 
     @clear_screen
     def no_api_key(self):
         self.runtime_stats()
-        print(Colours.RED + "No API key found! Run "
-              + Colours.ENDC + Colours.BOLD + "/api new"
-              + Colours.RED + " on hypixel to generate a key"
-              + Colours.ENDC)
+        print(Colors.RED + "No API key found! Run "
+              + Colors.ENDC + Colors.BOLD + "/api new"
+              + Colors.RED + " on hypixel to generate a key"
+              + Colors.ENDC)
 
     @clear_screen
     def stat_table(self):
@@ -880,7 +880,7 @@ class View:
             index = self._model.get_average_index()
             print("Lobby liquidity: {:<4} | Lobby index: {}".format(
                 self._model.get_queue_liquidity(),
-                Colours.get_index_colour(index) + str(index) + Colours.ENDC)
+                Colors.get_index_color(index) + str(index) + Colors.ENDC)
             )
 
         form = "{:^16} │ {:^5} │ {:^4} │ {:^4} │ {:^6} │ {:^6} │ {:^6} │ {:^6} │ {:^5} │ {:^7}"
@@ -888,18 +888,18 @@ class View:
         print(header)
         self._sep_line(header)
 
-        form = "{}{:^16}{end} │ {}{:^5}{end} │ {stars_colour}{:^4}{end} │ {winstreak_colour}{:^4}{end} │ {fkdr_colour}{" \
-               ":^6}{end} │ {wlr_colour}{:^6}{end} │ {bblr_colour}{:^6}{end} │ {wins_colour}{:^6}{end} │ {" \
-               "finals_colour}{:^6}{end} │ {index_colour}{:^7}{end}".replace("{end}", Colours.ENDC)
+        form = "{}{:^16}{end} │ {}{:^5}{end} │ {stars_color}{:^4}{end} │ {winstreak_color}{:^4}{end} │ {fkdr_color}{" \
+               ":^6}{end} │ {wlr_color}{:^6}{end} │ {bblr_color}{:^6}{end} │ {wins_color}{:^6}{end} │ {" \
+               "finals_color}{:^6}{end} │ {index_color}{:^7}{end}".replace("{end}", Colors.ENDC)
 
         if len(self._model.players) == 0:
             print("\n{:^l}".replace("l", str(len(header))).format(
-                Colours.RED + Colours.BOLD + "No players found" + Colours.ENDC))
+                Colors.RED + Colors.BOLD + "No players found" + Colors.ENDC))
         else:
             for player in self._model.players:
                 print(player.to_string(form))
             playertext = "Players: " + str(len(self._model.players))
-            print("\n{:^l}".replace("l", str(len(header))).format(Colours.GREEN + Colours.BOLD + playertext + Colours.ENDC))
+            print("\n{:^l}".replace("l", str(len(header))).format(Colors.GREEN + Colors.BOLD + playertext + Colors.ENDC))
 
     @staticmethod
     def _sep_line(header):
@@ -955,9 +955,6 @@ class JoinObserver(FileObserver):
                 name = line.split(" ")[0]
                 logging.info(name + "joined the queue!")
                 self._model.add_player(name)
-                with open("teest", "w") as _f:
-                    _f.write(name + "\n")
-
 
 class LeaveObserver(FileObserver):
     """
@@ -1138,7 +1135,7 @@ if __name__ == "__main__":
   / /_/ / / / / / / / | / / _ \/ ___/ / __ `/ / / /
  / ____/ /_/ / /_/ /| |/ /  __/ /  / / /_/ / /_/ /
 /_/    \__, /\____/ |___/\___/_/  /_/\__,_/\__, /
-      /____/                              /____/""" + Colours.BLUE + " v" + str(VERSION) + "\033[0m")
+      /____/                              /____/""" + Colors.BLUE + " v" + str(VERSION) + "\033[0m")
 
     latest_py_overlay = requests.get(
         "https://raw.githubusercontent.com/Kopamed/PyOverlay/main/PyOverlay.py")
