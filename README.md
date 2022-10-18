@@ -19,7 +19,7 @@
   <h3 align="center">Best Cross-Platform Overlay</h3>
 
   <p align="center">
-    A free and open source bedwars overlay for hypixel bedwars!
+    A free and open source bedwars overlay for Hypixel bedwars!
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
@@ -48,6 +48,7 @@ PyOverlay displays the following stats:
 * Players' beds broken to beds lost ratio
 * Players' wins
 * Players' finals
+* Players' index
 
 If you believe something should not be displayed or something should be added, please open an Issue
 
