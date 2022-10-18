@@ -1,0 +1,138 @@
+[2022-10-18 17:46:14,881] [DEBUG]: Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[2022-10-18 17:46:14,920] [DEBUG]: https://raw.githubusercontent.com:443 "GET /Kopamed/PyOverlay/main/PyOverlay.py HTTP/1.1" 200 8501
+[2022-10-18 17:46:14,922] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:46:15,661] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:46:15,699] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:46:16,027] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:46:16,061] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:46:16,390] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:46:16,416] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:46:16,740] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:46:16,746] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:46:17,072] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:46:17,100] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:46:17,428] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:46:17,457] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:46:17,867] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:46:17,887] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:46:18,233] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:46:18,257] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:46:18,576] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:46:18,594] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:46:19,463] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 17:46:19,623] [DEBUG]: https://api.hypixel.net:443 "GET /key?key=8cd58181-1983-47c4-982a-b92a31705647 HTTP/1.1" 200 None
+[2022-10-18 17:46:23,917] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:46:23,936] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:46:24,254] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:46:24,271] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:46:24,595] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:46:24,629] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:46:29,945] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:46:29,988] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:46:30,705] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:46:30,756] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:46:30,878] [DEBUG]: connecting to mc.hypixel.net
+[2022-10-18 17:46:31,225] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:46:31,231] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:46:31,562] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:46:31,579] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:46:31,901] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:46:31,920] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:46:32,364] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:46:32,398] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:46:32,726] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:46:32,746] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:46:37,999] [INFO]: Nqturaljoined the queue!
+[2022-10-18 17:46:38,000] [DEBUG]: Starting new HTTPS connection (1): api.mojang.com:443
+[2022-10-18 17:46:38,103] [INFO]: Joined new queue!
+[2022-10-18 17:46:38,107] [DEBUG]: Started mass stat request: ['qtural']
+[2022-10-18 17:46:38,107] [DEBUG]: Starting new HTTPS connection (1): api.mojang.com:443
+[2022-10-18 17:46:38,150] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:46:38,184] [DEBUG]: https://api.mojang.com:443 "GET /users/profiles/minecraft/Nqtural HTTP/1.1" 200 58
+[2022-10-18 17:46:38,193] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:46:38,195] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 17:46:38,339] [DEBUG]: https://api.mojang.com:443 "POST /profiles/minecraft HTTP/1.1" 200 2
+[2022-10-18 17:46:38,413] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=8cd58181-1983-47c4-982a-b92a31705647&uuid=42202eb599bf4a56b56625eded903200 HTTP/1.1" 200 None
+[2022-10-18 17:46:41,616] [INFO]: ExceptedCrowd54joined the queue!
+[2022-10-18 17:46:41,617] [DEBUG]: Starting new HTTPS connection (1): api.mojang.com:443
+[2022-10-18 17:46:41,803] [DEBUG]: https://api.mojang.com:443 "GET /users/profiles/minecraft/ExceptedCrowd54 HTTP/1.1" 200 66
+[2022-10-18 17:46:41,815] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 17:46:42,006] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=8cd58181-1983-47c4-982a-b92a31705647&uuid=eed108070fb6401f8ea6bc55f5c051ff HTTP/1.1" 200 None
+[2022-10-18 17:46:43,465] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:46:43,511] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:46:44,067] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:46:44,074] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:46:44,565] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:46:44,599] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:46:45,081] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:46:45,116] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:46:45,455] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:46:45,462] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:46:45,629] [INFO]: iqqluisjoined the queue!
+[2022-10-18 17:46:45,630] [DEBUG]: Starting new HTTPS connection (1): api.mojang.com:443
+[2022-10-18 17:46:45,634] [INFO]: Kyle0312joined the queue!
+[2022-10-18 17:46:45,634] [DEBUG]: Starting new HTTPS connection (1): api.mojang.com:443
+[2022-10-18 17:46:45,786] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:46:45,802] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:46:45,808] [DEBUG]: https://api.mojang.com:443 "GET /users/profiles/minecraft/Kyle0312 HTTP/1.1" 200 59
+[2022-10-18 17:46:45,810] [DEBUG]: https://api.mojang.com:443 "GET /users/profiles/minecraft/iqqluis HTTP/1.1" 200 58
+[2022-10-18 17:46:45,820] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 17:46:45,822] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 17:46:46,006] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=8cd58181-1983-47c4-982a-b92a31705647&uuid=f66736d8b07349e5bbd74dbb004e0427 HTTP/1.1" 200 None
+[2022-10-18 17:46:46,012] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=8cd58181-1983-47c4-982a-b92a31705647&uuid=c5f1d9da46b04fadbc60afee86e0aacf HTTP/1.1" 200 None
+[2022-10-18 17:46:46,244] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:46:46,280] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:46:46,608] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:46:46,629] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:46:46,958] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:46:47,002] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:46:47,242] [INFO]: Joined new queue!
+[2022-10-18 17:46:47,245] [DEBUG]: qtural was in cache
+[2022-10-18 17:46:47,249] [DEBUG]: Kyle0312 was in cache
+[2022-10-18 17:46:47,252] [DEBUG]: Started mass stat request: ['ExceptedCrowd54', 'iqqluis']
+[2022-10-18 17:46:47,253] [DEBUG]: Starting new HTTPS connection (1): api.mojang.com:443
+[2022-10-18 17:46:47,514] [DEBUG]: https://api.mojang.com:443 "POST /profiles/minecraft HTTP/1.1" 200 127
+[2022-10-18 17:46:47,526] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 17:46:47,527] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 17:46:47,717] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=8cd58181-1983-47c4-982a-b92a31705647&uuid=f66736d8b07349e5bbd74dbb004e0427 HTTP/1.1" 200 None
+[2022-10-18 17:46:47,723] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=8cd58181-1983-47c4-982a-b92a31705647&uuid=eed108070fb6401f8ea6bc55f5c051ff HTTP/1.1" 200 None
+[2022-10-18 17:46:48,256] [INFO]: DeTomster9joined the queue!
+[2022-10-18 17:46:48,256] [DEBUG]: Starting new HTTPS connection (1): api.mojang.com:443
+[2022-10-18 17:46:48,260] [INFO]: Mr_Bosjoined the queue!
+[2022-10-18 17:46:48,261] [DEBUG]: Starting new HTTPS connection (1): api.mojang.com:443
+[2022-10-18 17:46:48,434] [DEBUG]: https://api.mojang.com:443 "GET /users/profiles/minecraft/DeTomster9 HTTP/1.1" 200 61
+[2022-10-18 17:46:48,446] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 17:46:48,645] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=8cd58181-1983-47c4-982a-b92a31705647&uuid=6088ede94df64388aa70a5048d387226 HTTP/1.1" 200 None
+[2022-10-18 17:46:48,647] [DEBUG]: https://api.mojang.com:443 "GET /users/profiles/minecraft/Mr_Bos HTTP/1.1" 200 57
+[2022-10-18 17:46:48,659] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 17:46:48,834] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=8cd58181-1983-47c4-982a-b92a31705647&uuid=466ad3a88d8242b6a13530779866c4bb HTTP/1.1" 200 None
+[2022-10-18 17:46:52,500] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 404 None
+[2022-10-18 17:46:52,501] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:46:55,682] [INFO]: 24_Zjoined the queue!
+[2022-10-18 17:46:55,683] [DEBUG]: Starting new HTTPS connection (1): api.mojang.com:443
+[2022-10-18 17:46:55,788] [INFO]: AndrewTattesYTjoined the queue!
+[2022-10-18 17:46:55,789] [DEBUG]: Starting new HTTPS connection (1): api.mojang.com:443
+[2022-10-18 17:46:55,880] [DEBUG]: https://api.mojang.com:443 "GET /users/profiles/minecraft/24_Z HTTP/1.1" 200 55
+[2022-10-18 17:46:55,892] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 17:46:55,961] [DEBUG]: https://api.mojang.com:443 "GET /users/profiles/minecraft/AndrewTattesYT HTTP/1.1" 200 65
+[2022-10-18 17:46:55,973] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 17:46:56,091] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=8cd58181-1983-47c4-982a-b92a31705647&uuid=77b5108c4f9f4279b5a49e59d1a27346 HTTP/1.1" 200 None
+[2022-10-18 17:46:56,154] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=8cd58181-1983-47c4-982a-b92a31705647&uuid=8e74fdb22e944a43a1c5ca92b19a7335 HTTP/1.1" 200 None
+[2022-10-18 17:46:57,936] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:46:57,971] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:46:58,756] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:46:58,802] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:46:59,148] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:46:59,168] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:46:59,659] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:46:59,694] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:47:00,014] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:47:00,033] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:47:00,517] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:47:00,555] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:47:00,893] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:47:00,937] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:47:01,430] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:47:01,474] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:47:01,954] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:47:01,989] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443

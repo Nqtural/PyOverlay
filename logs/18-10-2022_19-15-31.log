@@ -1,0 +1,123 @@
+[2022-10-18 19:15:31,393] [DEBUG]: Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[2022-10-18 19:15:31,432] [DEBUG]: https://raw.githubusercontent.com:443 "GET /Kopamed/PyOverlay/main/PyOverlay.py HTTP/1.1" 200 8501
+[2022-10-18 19:15:31,435] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 19:15:32,135] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 19:15:32,156] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 19:15:32,512] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 19:15:32,549] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 19:15:34,080] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 19:15:34,256] [DEBUG]: https://api.hypixel.net:443 "GET /key?key=f0d8d0e7-b1e8-4874-85bd-67a157e6806d HTTP/1.1" 200 None
+[2022-10-18 19:15:37,855] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 19:15:37,865] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 19:15:43,078] [INFO]: Nqturaljoined the queue!
+[2022-10-18 19:15:43,079] [DEBUG]: Starting new HTTPS connection (1): api.mojang.com:443
+[2022-10-18 19:15:43,183] [INFO]: Joined new queue!
+[2022-10-18 19:15:43,187] [DEBUG]: Started mass stat request: ['qtural']
+[2022-10-18 19:15:43,188] [DEBUG]: Starting new HTTPS connection (1): api.mojang.com:443
+[2022-10-18 19:15:43,220] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 404 None
+[2022-10-18 19:15:43,238] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 19:15:43,276] [DEBUG]: https://api.mojang.com:443 "GET /users/profiles/minecraft/Nqtural HTTP/1.1" 200 58
+[2022-10-18 19:15:43,288] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 19:15:43,448] [DEBUG]: https://api.mojang.com:443 "POST /profiles/minecraft HTTP/1.1" 200 2
+[2022-10-18 19:15:43,492] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=f0d8d0e7-b1e8-4874-85bd-67a157e6806d&uuid=42202eb599bf4a56b56625eded903200 HTTP/1.1" 200 None
+[2022-10-18 19:15:43,791] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 19:15:43,809] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 19:15:44,143] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 19:15:44,183] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 19:15:44,504] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 19:15:44,526] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 19:15:44,917] [INFO]: UnderseaTrain87joined the queue!
+[2022-10-18 19:15:44,918] [DEBUG]: Starting new HTTPS connection (1): api.mojang.com:443
+[2022-10-18 19:15:45,023] [INFO]: DarkKnight_0joined the queue!
+[2022-10-18 19:15:45,024] [DEBUG]: Starting new HTTPS connection (1): api.mojang.com:443
+[2022-10-18 19:15:45,125] [DEBUG]: https://api.mojang.com:443 "GET /users/profiles/minecraft/UnderseaTrain87 HTTP/1.1" 200 66
+[2022-10-18 19:15:45,137] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 19:15:45,206] [DEBUG]: https://api.mojang.com:443 "GET /users/profiles/minecraft/DarkKnight_0 HTTP/1.1" 200 63
+[2022-10-18 19:15:45,218] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 19:15:45,334] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=f0d8d0e7-b1e8-4874-85bd-67a157e6806d&uuid=36b58484cf364990bff45d095668776b HTTP/1.1" 200 None
+[2022-10-18 19:15:45,407] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=f0d8d0e7-b1e8-4874-85bd-67a157e6806d&uuid=9aa47eead8c240de9c3bbba38f72baf3 HTTP/1.1" 200 None
+[2022-10-18 19:15:45,435] [INFO]: 0Netheriteswordjoined the queue!
+[2022-10-18 19:15:45,436] [DEBUG]: Starting new HTTPS connection (1): api.mojang.com:443
+[2022-10-18 19:15:45,439] [INFO]: SpidyStevejoined the queue!
+[2022-10-18 19:15:45,440] [DEBUG]: Starting new HTTPS connection (1): api.mojang.com:443
+[2022-10-18 19:15:45,614] [DEBUG]: https://api.mojang.com:443 "GET /users/profiles/minecraft/SpidySteve HTTP/1.1" 200 61
+[2022-10-18 19:15:45,617] [DEBUG]: https://api.mojang.com:443 "GET /users/profiles/minecraft/0Netheritesword HTTP/1.1" 200 66
+[2022-10-18 19:15:45,626] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 19:15:45,629] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 19:15:45,826] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=f0d8d0e7-b1e8-4874-85bd-67a157e6806d&uuid=c785876b1c52487d833a03bd6c53e845 HTTP/1.1" 200 None
+[2022-10-18 19:15:45,834] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=f0d8d0e7-b1e8-4874-85bd-67a157e6806d&uuid=06b5e9366d31403fad594a439bf6ea83 HTTP/1.1" 200 None
+[2022-10-18 19:15:46,053] [INFO]: venom76yjoined the queue!
+[2022-10-18 19:15:46,054] [DEBUG]: Starting new HTTPS connection (1): api.mojang.com:443
+[2022-10-18 19:15:46,057] [INFO]: McBergersjoined the queue!
+[2022-10-18 19:15:46,059] [DEBUG]: Starting new HTTPS connection (1): api.mojang.com:443
+[2022-10-18 19:15:46,237] [DEBUG]: https://api.mojang.com:443 "GET /users/profiles/minecraft/McBergers HTTP/1.1" 200 60
+[2022-10-18 19:15:46,249] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 19:15:46,435] [DEBUG]: https://api.mojang.com:443 "GET /users/profiles/minecraft/venom76y HTTP/1.1" 200 59
+[2022-10-18 19:15:46,446] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=f0d8d0e7-b1e8-4874-85bd-67a157e6806d&uuid=4d9a5f2467e7494395e45f86fbbee261 HTTP/1.1" 200 None
+[2022-10-18 19:15:46,447] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 19:15:46,571] [INFO]: Erhultjoined the queue!
+[2022-10-18 19:15:46,572] [DEBUG]: Starting new HTTPS connection (1): api.mojang.com:443
+[2022-10-18 19:15:46,575] [INFO]: thejoel250joined the queue!
+[2022-10-18 19:15:46,576] [DEBUG]: Starting new HTTPS connection (1): api.mojang.com:443
+[2022-10-18 19:15:46,649] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=f0d8d0e7-b1e8-4874-85bd-67a157e6806d&uuid=d35ce5d56c004ad2bd4c33c7b0f33487 HTTP/1.1" 200 None
+[2022-10-18 19:15:46,792] [DEBUG]: https://api.mojang.com:443 "GET /users/profiles/minecraft/thejoel250 HTTP/1.1" 204 0
+[2022-10-18 19:15:46,804] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 19:15:46,963] [DEBUG]: https://api.mojang.com:443 "GET /users/profiles/minecraft/Erhult HTTP/1.1" 200 57
+[2022-10-18 19:15:46,972] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=f0d8d0e7-b1e8-4874-85bd-67a157e6806d&uuid=None HTTP/1.1" 422 42
+[2022-10-18 19:15:46,975] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 19:15:46,984] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 19:15:47,155] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=f0d8d0e7-b1e8-4874-85bd-67a157e6806d&uuid=None HTTP/1.1" 422 42
+[2022-10-18 19:15:47,167] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 19:15:47,192] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=f0d8d0e7-b1e8-4874-85bd-67a157e6806d&uuid=58722a1950124b58882b8e9fd27141c6 HTTP/1.1" 200 None
+[2022-10-18 19:15:47,347] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=f0d8d0e7-b1e8-4874-85bd-67a157e6806d&uuid=None HTTP/1.1" 422 42
+[2022-10-18 19:15:47,359] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 19:15:47,539] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=f0d8d0e7-b1e8-4874-85bd-67a157e6806d&uuid=None HTTP/1.1" 422 42
+[2022-10-18 19:15:47,552] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 19:15:47,760] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=f0d8d0e7-b1e8-4874-85bd-67a157e6806d&uuid=None HTTP/1.1" 422 42
+[2022-10-18 19:15:47,772] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 19:15:47,945] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=f0d8d0e7-b1e8-4874-85bd-67a157e6806d&uuid=None HTTP/1.1" 422 42
+[2022-10-18 19:15:47,957] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 19:15:48,134] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=f0d8d0e7-b1e8-4874-85bd-67a157e6806d&uuid=None HTTP/1.1" 422 42
+[2022-10-18 19:15:48,146] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 19:15:48,312] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=f0d8d0e7-b1e8-4874-85bd-67a157e6806d&uuid=None HTTP/1.1" 422 42
+[2022-10-18 19:15:48,324] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 19:15:48,410] [INFO]: LeuksteTrioThijsjoined the queue!
+[2022-10-18 19:15:48,410] [DEBUG]: Starting new HTTPS connection (1): api.mojang.com:443
+[2022-10-18 19:15:48,414] [INFO]: limedinojoined the queue!
+[2022-10-18 19:15:48,415] [DEBUG]: Starting new HTTPS connection (1): api.mojang.com:443
+[2022-10-18 19:15:48,501] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=f0d8d0e7-b1e8-4874-85bd-67a157e6806d&uuid=None HTTP/1.1" 422 42
+[2022-10-18 19:15:48,513] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 19:15:48,585] [DEBUG]: https://api.mojang.com:443 "GET /users/profiles/minecraft/limedino HTTP/1.1" 200 59
+[2022-10-18 19:15:48,590] [DEBUG]: https://api.mojang.com:443 "GET /users/profiles/minecraft/LeuksteTrioThijs HTTP/1.1" 200 67
+[2022-10-18 19:15:48,597] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 19:15:48,602] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 19:15:48,688] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=f0d8d0e7-b1e8-4874-85bd-67a157e6806d&uuid=None HTTP/1.1" 422 42
+[2022-10-18 19:15:48,700] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 19:15:48,790] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=f0d8d0e7-b1e8-4874-85bd-67a157e6806d&uuid=6452ba07c3f147b780654cf4c591e174 HTTP/1.1" 200 None
+[2022-10-18 19:15:48,807] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=f0d8d0e7-b1e8-4874-85bd-67a157e6806d&uuid=8d6c29168f454ef29c7706d73e5297c4 HTTP/1.1" 200 None
+[2022-10-18 19:15:48,874] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=f0d8d0e7-b1e8-4874-85bd-67a157e6806d&uuid=None HTTP/1.1" 422 42
+[2022-10-18 19:15:48,886] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 19:15:49,078] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=f0d8d0e7-b1e8-4874-85bd-67a157e6806d&uuid=None HTTP/1.1" 422 42
+[2022-10-18 19:15:49,090] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 19:15:49,264] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=f0d8d0e7-b1e8-4874-85bd-67a157e6806d&uuid=None HTTP/1.1" 422 42
+[2022-10-18 19:15:49,276] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 19:15:49,440] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=f0d8d0e7-b1e8-4874-85bd-67a157e6806d&uuid=None HTTP/1.1" 422 42
+[2022-10-18 19:15:49,452] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 19:15:49,655] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=f0d8d0e7-b1e8-4874-85bd-67a157e6806d&uuid=None HTTP/1.1" 422 42
+[2022-10-18 19:15:49,667] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 19:15:49,783] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 19:15:49,804] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 19:15:49,832] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=f0d8d0e7-b1e8-4874-85bd-67a157e6806d&uuid=None HTTP/1.1" 422 42
+[2022-10-18 19:15:49,844] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 19:15:50,014] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=f0d8d0e7-b1e8-4874-85bd-67a157e6806d&uuid=None HTTP/1.1" 422 42
+[2022-10-18 19:15:50,029] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 19:15:50,271] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=f0d8d0e7-b1e8-4874-85bd-67a157e6806d&uuid=None HTTP/1.1" 422 42
+[2022-10-18 19:15:50,286] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 19:15:50,474] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 19:15:50,476] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=f0d8d0e7-b1e8-4874-85bd-67a157e6806d&uuid=None HTTP/1.1" 422 42
+[2022-10-18 19:15:50,493] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 19:15:50,519] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 19:15:50,681] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=f0d8d0e7-b1e8-4874-85bd-67a157e6806d&uuid=None HTTP/1.1" 422 42
+[2022-10-18 19:15:50,697] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443
+[2022-10-18 19:15:50,908] [DEBUG]: https://api.hypixel.net:443 "GET /player?key=f0d8d0e7-b1e8-4874-85bd-67a157e6806d&uuid=None HTTP/1.1" 422 42
+[2022-10-18 19:15:50,923] [DEBUG]: Starting new HTTPS connection (1): api.hypixel.net:443

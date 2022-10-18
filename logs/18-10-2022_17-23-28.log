@@ -1,0 +1,5 @@
+[2022-10-18 17:23:28,715] [DEBUG]: Starting new HTTPS connection (1): raw.githubusercontent.com:443
+[2022-10-18 17:23:28,937] [DEBUG]: https://raw.githubusercontent.com:443 "GET /Kopamed/PyOverlay/main/PyOverlay.py HTTP/1.1" 200 8501
+[2022-10-18 17:23:28,939] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443
+[2022-10-18 17:23:34,474] [DEBUG]: https://launchtracker.raventeam.repl.co:443 "GET /paths HTTP/1.1" 429 None
+[2022-10-18 17:23:34,484] [DEBUG]: Starting new HTTPS connection (1): launchtracker.raventeam.repl.co:443

@@ -128,6 +128,9 @@ class ConfigManager:
         self.config_folder = str(Pathlib.home()) + os.sep + "PyOverlay"
         self.config_path = self.config_folder + os.sep + "config"
 
+    def get_custom_path():
+        return str(Pathlib.home()) + os.sep + "PyOverlay" + os.sep + "custom_path"
+
     def save_api_key(self, api_key):
         self._assure_config_exists()
         with open(self.config_path, "w") as f_:
@@ -714,6 +717,7 @@ class View:
         else:
             for player in self._model.players:
                 print(player.to_string(form))
+            print(Colours.BOLD + "\nPlayers:", str(len(self._model.players)) + Colours.ENDC)
 
     @staticmethod
     def _sep_line(header):
@@ -945,11 +949,11 @@ if __name__ == "__main__":
 
     clear_screen()
     print("\033[96m", end="")
-    print("""    ____        ____                  __           
+    print("""    ____        ____                  __
    / __ \__  __/ __ \_   _____  _____/ /___ ___  __
   / /_/ / / / / / / / | / / _ \/ ___/ / __ `/ / / /
- / ____/ /_/ / /_/ /| |/ /  __/ /  / / /_/ / /_/ / 
-/_/    \__, /\____/ |___/\___/_/  /_/\__,_/\__, /  
+ / ____/ /_/ / /_/ /| |/ /  __/ /  / / /_/ / /_/ /
+/_/    \__, /\____/ |___/\___/_/  /_/\__,_/\__, /
       /____/                              /____/""" + Colours.BLUE + " v" + str(VERSION) + "\033[0m")
 
     latest_py_overlay = requests.get(
@@ -1001,10 +1005,21 @@ if __name__ == "__main__":
             mc_log_path += paths.get_mc_path()
             client = Client.Minecraft
         else:
-            print("Enter the path to your minecraft log file. The default one is",
-                  str(Pathlib.home()) + paths.get_mc_path())
-            client = Client.Minecraft
-            mc_log_path = input()
+            try:
+                with open(ConfigManager.get_custom_path(), "r") as f_:
+                    f = input("Reuse last path? [Y/n]: ")
+                    if "n" not in f:
+                        with open(ConfigManager.get_custom_path(), "r") as f_:
+                            mc_log_path = f_.read().strip("\n")
+                    else:
+                        raise Exception("this exception is just for the try condition to fail")
+            except:
+                print("Enter the path to your minecraft log file. The default one is",
+                      str(Pathlib.home()) + paths.get_mc_path())
+                client = Client.Minecraft
+                mc_log_path = input()
+                with open(ConfigManager.get_custom_path(), "w") as f_:
+                    f_.write(mc_log_path)
 
         if os.path.exists(mc_log_path):
             break
