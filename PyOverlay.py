@@ -87,29 +87,201 @@ class Colours:
     GREEN = '\033[92m'
     GOLD = '\033[93m'
     RED = '\033[91m'
+    GRAY = '\033[90m\033[1m'
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
     ENDC = '\033[0m'
 
     @staticmethod
-    def get_stat_colour(index: int):
+    def get_stars_colour(stars: int):
+        if stars < 100:
+            return "\033[90m\033[1m"
+        elif stars < 200:
+            return "\033[1m"
+        elif stars < 300:
+            return "\033[33m\033[2m"
+        elif stars < 400:
+            return "\033[96m\033[1m"
+        elif stars < 500:
+            return "\033[92m\033[2m"
+        elif stars < 600:
+            return "\033[96m\033[2m"
+        elif stars < 700:
+            return "\033[91m\033[2m"
+        elif stars < 800:
+            return "\033[95m\033[1m"
+        elif stars < 900:
+            return "\033[94m\033[2m"
+        elif stars < 1000:
+            return "\033[95m\033[2m"
+        elif stars < 1100:
+            return "\033[91m\033[1m"
+        elif stars < 1200:
+            return "\033[1m"
+        elif stars < 1300:
+            return "\033[33m\033[1m"
+        elif stars < 1400:
+            return "\033[96m\033[1m"
+        elif stars < 1500:
+            return "\033[92m\033[1m"
+        elif stars < 1600:
+            return "\033[96m\033[2m"
+        elif stars < 1700:
+            return "\033[91m\033[1m"
+        elif stars < 1800:
+            return "\033[95m\033[1m"
+        elif stars < 1900:
+            return "\033[94m\033[1m"
+        elif stars < 2000:
+            return "\033[95m\033[2m"
+        elif stars < 2100:
+            return "\033[1m"
+        elif stars < 2200:
+            return "\033[33m\033[1m"
+        elif stars < 2300:
+            return "\033[96m\033[1m"
+        elif stars < 2400:
+            return "\033[95m\033[1m"
+        elif stars < 2500:
+            return "\033[96m\033[1m"
+        elif stars < 2600:
+            return "\033[92m\033[1m"
+        elif stars < 2700:
+            return "\033[91m\033[1m"
+        elif stars < 2800:
+            return "\033[33m\033[1m"
+        elif stars < 2900:
+            return "\033[92m\033[2m"
+        elif stars < 3000:
+            return "\033[96m\033[2m"
+        else:
+            return "\033[91m\033[2m"
+
+    def get_fkdr_colour(fkdr: float):
+        if fkdr < 1:
+            return "\033[90m\033[1m"
+        elif fkdr < 2:
+            return "\033[1m"
+        elif fkdr < 3:
+            return "\033[33m\033[1m"
+        elif fkdr < 4:
+            return "\033[92m\033[1m"
+        elif fkdr < 5:
+            return "\033[94m\033[1m"
+        elif fkdr < 6:
+            return "\033[91m\033[1m"
+        elif fkdr < 10:
+            return "\033[95m\033[1m"
+        else:
+            return "\033[96m\033[1m"
+
+    def get_winstreak_colour(winstreak: int):
+        if winstreak < 1:
+            return "\033[90m\033[1m"
+        elif winstreak < 10:
+            return "\033[1m"
+        elif winstreak < 20:
+            return "\033[33m\033[1m"
+        elif winstreak < 30:
+            return "\033[92m\033[1m"
+        elif winstreak < 40:
+            return "\033[94m\033[1m"
+        elif winstreak < 50:
+            return "\033[91m\033[1m"
+        elif winstreak < 100:
+            return "\033[95m\033[1m"
+        else:
+            return "\033[96m\033[1m"
+
+    def get_wlr_colour(wlr: float):
+        if wlr < 1:
+            return "\033[90m\033[1m"
+        elif wlr < 2:
+            return "\033[1m"
+        elif wlr < 3:
+            return "\033[33m\033[1m"
+        elif wlr < 4:
+            return "\033[92m\033[1m"
+        elif wlr < 5:
+            return "\033[94m\033[1m"
+        elif wlr < 6:
+            return "\033[91m\033[1m"
+        elif wlr < 10:
+            return "\033[95m\033[1m"
+        else:
+           return "\033[96m\033[1m"
+
+    def get_bblr_colour(bblr: float):
+        if bblr < 1:
+            return "\033[90m\033[1m"
+        elif bblr < 2:
+            return "\033[1m"
+        elif bblr < 3:
+            return "\033[33m\033[1m"
+        elif bblr < 4:
+            return "\033[92m\033[1m"
+        elif bblr < 5:
+            return "\033[94m\033[1m"
+        elif bblr < 6:
+            return "\033[91m\033[1m"
+        elif bblr < 10:
+            return "\033[95m\033[1m"
+        else:
+            return "\033[96m\033[1m"
+
+    def get_wins_colour(wins: int):
+        if wins < 1000:
+            return "\033[90m\033[1m"
+        elif wins < 2000:
+            return "\033[1m"
+        elif wins < 3000:
+            return "\033[33m\033[1m"
+        elif wins < 4000:
+            return "\033[92m\033[1m"
+        elif wins < 5000:
+            return "\033[94m\033[1m"
+        elif wins < 6000:
+            return "\033[91m\033[1m"
+        elif wins < 10000:
+            return "\033[95m\033[1m"
+        else:
+            return "\033[96m\033[1m"
+
+    def get_finals_colour(finals: int):
+        if finals < 1000:
+            return "\033[90m\033[1m"
+        elif finals < 5000:
+            return "\033[1m"
+        elif finals < 10000:
+            return "\033[33m\033[1m"
+        elif finals < 15000:
+            return "\033[92m\033[1m"
+        elif finals < 20000:
+            return "\033[94m\033[1m"
+        elif finals < 25000:
+            return "\033[91m\033[1m"
+        elif finals < 50000:
+            return "\033[95m\033[1m"
+        else:
+            return "\033[96m\033[1m"
+
+    def get_index_colour(index: int):
         if index < 1000:
-            return ""
+            return "\033[90m\033[1m"
         elif index < 3000:
-            return "\033[33m"
+            return "\033[1m"
         elif index < 7500:
-            return "\033[93m"
+            return "\033[33m\033[1m"
         elif index < 15000:
-            return "\033[91m"
+            return "\033[92m\033[1m"
         elif index < 30000:
-            return "\033[95m"
+            return "\033[94m\033[1m"
         elif index < 100000:
-            return "\033[94m"
+            return "\033[91m\033[1m"
         elif index < 500000:
-            return "\033[96m"
-
-        return "\033[92m"
-
+            return "\033[95m\033[1m"
+        else:
+            return "\033[96m\033[1m"
 
 class Client:
     Lunar: str = "Make sure you have Auto Who enabled in Hypixel Mods"
@@ -354,9 +526,10 @@ class Model:
 
 
 class Player:
-    rank_colours: dict[str, str] = {"MVP_PLUS": Colours.CYAN, "MVP": Colours.CYAN, "SUPERSTAR": Colours.GOLD,
-                                    "VIP": Colours.GREEN,
-                                    "VIP_PLUS": Colours.GREEN, "NON": ""}
+    rank_colours: dict[str, str] = {"MVP_PLUS": Colours.CYAN + Colours.BOLD, "MVP": Colours.CYAN + Colours.BOLD,
+                                    "SUPERSTAR": Colours.GOLD + "\033[2m",
+                                    "VIP": Colours.GREEN + Colours.BOLD,
+                                    "VIP_PLUS": Colours.GREEN + Colours.BOLD, "NON": ""}
 
     def __init__(self, ign: str, model_: Model, uuid_: str = None, nicked: bool = False):
         self._model = model_
@@ -392,13 +565,21 @@ class Player:
             self.bblr,
             self.wins,
             self.finals,
-            stat_colour=Colours.get_stat_colour(self.index)
+            self.index,
+            stars_colour=Colours.get_stars_colour(self.stars),
+            fkdr_colour=Colours.get_fkdr_colour(self.fkdr),
+            winstreak_colour=Colours.get_winstreak_colour(self.winstreak),
+            wlr_colour=Colours.get_wlr_colour(self.wlr),
+            bblr_colour=Colours.get_bblr_colour(self.bblr),
+            wins_colour=Colours.get_wins_colour(self.wins),
+            finals_colour=Colours.get_finals_colour(self.finals),
+            index_colour=Colours.get_index_colour(self.index),
         )
 
     def _populate_player_data(self):
         """
         Method which requests data from the hypixel api and fuck
-        :param self: Player whose  data you want to populate
+        :param self: Player whose data you want to populate
         :return:
         """
         while not self.data_downloaded:
@@ -492,7 +673,7 @@ class Player:
                 except KeyError:
                     pass
 
-                self.index = self.stars * self.fkdr ** 2
+                self.index = int(self.stars * self.fkdr ** 2)
 
         self._model.player_updated(self)
 
@@ -699,25 +880,26 @@ class View:
             index = self._model.get_average_index()
             print("Lobby liquidity: {:<4} | Lobby index: {}".format(
                 self._model.get_queue_liquidity(),
-                Colours.get_stat_colour(index) + str(index) + Colours.ENDC)
+                Colours.get_index_colour(index) + str(index) + Colours.ENDC)
             )
 
-        form = "{:^16} │ {:^5} │ {:^4} │ {:^4} │ {:^6} │ {:^6} │ {:^6} │ {:^5} │ {:^5}"
-        header = form.format("Name", "Tag", "Star", "WS", "FKDR", "WLR", "BBLR", "Wins", "Finals")
+        form = "{:^16} │ {:^5} │ {:^4} │ {:^4} │ {:^6} │ {:^6} │ {:^6} │ {:^6} │ {:^5} │ {:^7}"
+        header = form.format("Name", "Tag", "Star", "WS", "FKDR", "WLR", "BBLR", "Wins", "Finals", "Index")
         print(header)
         self._sep_line(header)
 
-        form = "{}{:^16}{end} │ {}{:^5}{end} │ {stat_colour}{:^4}{end} │ {stat_colour}{:^4}{end} │ {stat_colour}{" \
-               ":^6}{end} │ {stat_colour}{:^6}{end} │ {stat_colour}{:^6}{end} │ {stat_colour}{:^5}{end} │ {" \
-               "stat_colour}{:^5}{end}".replace("{end}", Colours.ENDC)
+        form = "{}{:^16}{end} │ {}{:^5}{end} │ {stars_colour}{:^4}{end} │ {winstreak_colour}{:^4}{end} │ {fkdr_colour}{" \
+               ":^6}{end} │ {wlr_colour}{:^6}{end} │ {bblr_colour}{:^6}{end} │ {wins_colour}{:^6}{end} │ {" \
+               "finals_colour}{:^6}{end} │ {index_colour}{:^7}{end}".replace("{end}", Colours.ENDC)
 
         if len(self._model.players) == 0:
-            print("{:^l}".replace("l", str(len(header))).format(
-                Colours.GOLD + Colours.BOLD + "No players found" + Colours.ENDC))
+            print("\n{:^l}".replace("l", str(len(header))).format(
+                Colours.RED + Colours.BOLD + "No players found" + Colours.ENDC))
         else:
             for player in self._model.players:
                 print(player.to_string(form))
-            print(Colours.BOLD + "\nPlayers:", str(len(self._model.players)) + Colours.ENDC)
+            playertext = "Players: " + str(len(self._model.players))
+            print("\n{:^l}".replace("l", str(len(header))).format(Colours.GREEN + Colours.BOLD + playertext + Colours.ENDC))
 
     @staticmethod
     def _sep_line(header):
@@ -773,6 +955,8 @@ class JoinObserver(FileObserver):
                 name = line.split(" ")[0]
                 logging.info(name + "joined the queue!")
                 self._model.add_player(name)
+                with open("teest", "w") as _f:
+                    _f.write(name + "\n")
 
 
 class LeaveObserver(FileObserver):
@@ -993,8 +1177,8 @@ if __name__ == "__main__":
         mc_log_path = str(Pathlib.home())
         print("The following clients have been found on your computer:",
               "None" if len(clients) == 0 else ", ".join(i for i in clients))
-        e = input("Are you playing on\n[1] Lunar Client 1.8.9\n[2] Badlion Client\n[3] Minecraft/Forge\n[4] Something "
-                  "else/I use a custom directory for minecraft\n")
+        e = input("Are you playing on\n[1] Lunar Client 1.8.9\n[2] Badlion Client\n[3] Minecraft/Forge\n[4] Other"
+                  "/I use a custom directory for minecraft\n")
         if "1" in e:
             mc_log_path += paths.get_lunar_path()
             client = Client.Lunar
