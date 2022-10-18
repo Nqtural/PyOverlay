@@ -34,7 +34,7 @@
 
 ## About PyOverlay
 
-<img src="https://imgur.com/a/A3KlrQx" alt="Screenshot">
+<img src="https://imgur.com/XJuZQSo.png" alt="Screenshot">
 
 There are already loads of overlays out there, however all the external ones are not cross-platform and all the cross-platform ones are not external.
 
