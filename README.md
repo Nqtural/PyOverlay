@@ -1,13 +1,13 @@
 <p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/Kopamed/PyOverlay" alt="License"/></a>
-  <a href="https://github.com/kopamed/PyOverlay/issues/"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat" alt="Contributions welcome"/></a>
-  <a href="https://github.com/kopamed/PyOverlay/issues/"><img src="https://img.shields.io/github/issues/kopamed/PyOverlay.svg" alt="Issues"/></a>
-  <a href="https://github.com/kopamed/PyOverlay/pulls/"><img src="https://img.shields.io/github/issues-pr/kopamed/PyOverlay.svg" alt="Pull Requests"/></a>
-  <a href="https://github.com/kopamed/PyOverlay/graphs/contributors/"><img src="https://img.shields.io/github/contributors/kopamed/PyOverlay.svg" alt="GitHub contributors"/></a>
-  <img src="https://img.shields.io/github/languages/code-size/kopamed/PyOverlay.svg" alt="Code size"/>
-  <img src="https://img.shields.io/github/repo-size/kopamed/PyOverlay.svg" alt="GitHub repo size"/>
-  <img src="https://tokei.rs/b1/github/kopamed/PyOverlay?category=code" alt="Lines of Code"/>
-  <img src="https://img.shields.io/github/languages/top/Kopamed/PyOverlay" alt="Java"/>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/Nqtural/PyOverlay" alt="License"/></a>
+  <a href="https://github.com/Nqtural/PyOverlay/issues/"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat" alt="Contributions welcome"/></a>
+  <a href="https://github.com/Nqtural/PyOverlay/issues/"><img src="https://img.shields.io/github/issues/Nqtural/PyOverlay.svg" alt="Issues"/></a>
+  <a href="https://github.com/Nqtural/PyOverlay/pulls/"><img src="https://img.shields.io/github/issues-pr/Nqtural/PyOverlay.svg" alt="Pull Requests"/></a>
+  <a href="https://github.com/Nqtural/PyOverlay/graphs/contributors/"><img src="https://img.shields.io/github/contributors/Nqtural/PyOverlay.svg" alt="GitHub contributors"/></a>
+  <img src="https://img.shields.io/github/languages/code-size/Nqtural/PyOverlay.svg" alt="Code size"/>
+  <img src="https://img.shields.io/github/repo-size/Nqtural/PyOverlay.svg" alt="GitHub repo size"/>
+  <img src="https://tokei.rs/b1/github/Nqtural/PyOverlay?category=code" alt="Lines of Code"/>
+  <img src="https://img.shields.io/github/languages/top/Nqtural/PyOverlay" alt="Java"/>
 </p>
 
 <br />
@@ -34,7 +34,7 @@
 
 ## About PyOverlay
 
-<img src="https://imgur.com/XJuZQSo.png" alt="Screenshot">
+<img src="https://imgur.com/a/A3KlrQx" alt="Screenshot">
 
 There are already loads of overlays out there, however all the external ones are not cross-platform and all the cross-platform ones are not external.
 
@@ -55,10 +55,10 @@ If you believe something should not be displayed or something should be added, p
 
 ## Getting Started
 
-Make sure you have python 3 installed. [Download this repository](https://github.com/Kopamed/PyOverlay/archive/refs/heads/main.zip) and unzip the file. Extract PyOverlay.py to anywhere you want. Either double click it to run it, or open a terminal and cd into the file's directory and run it from there. Or alternatively, use the following commands in a terminal.
+Make sure you have python 3 installed. [Download this repository](https://github.com/Nqtural/PyOverlay/archive/refs/heads/main.zip) and unzip the file. Extract PyOverlay.py to anywhere you want. Either double click it to run it, or open a terminal and cd into the file's directory and run it from there. Or alternatively, use the following commands in a terminal.
 
 ```sh
-git clone https://github.com/Kopamed/PyOverlay.git
+git clone https://github.com/Nqtural/PyOverlay.git
   ```
 
 ```sh
