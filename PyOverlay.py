@@ -699,7 +699,8 @@ class Player:
                 time.sleep(8)  # arbitrary number of seconds to sleep. Pulled it out of my ass
 
     def _get_tag_color(self):
-        if self.uuid == "54968fd589a94732b02dad8d9162175f":  # Kopamed's uuid
+        if self.uuid == "54968fd589a94732b02dad8d9162175f" or self.uuid == "42202eb599bf4a56b56625eded903200":
+            # Kopamed and Nqtural's uuid
             return Colors.CYAN + Colors.BOLD
         elif self.nicked:
             return Colors.RED
@@ -709,7 +710,8 @@ class Player:
         return ""
 
     def _get_tag(self):
-        if self.uuid == "54968fd589a94732b02dad8d9162175f":  # Kopamed's uuid
+        if self.uuid == "54968fd589a94732b02dad8d9162175f" or self.uuid == "42202eb599bf4a56b56625eded903200":
+            # Kopamed and Nqtural's uuid
             return "DEV"
         elif self.nicked:
             return "NICK"
