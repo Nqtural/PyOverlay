@@ -3,3 +3,5 @@
 *.spec
 __pycache__/
 logs/
+config
+custom_path
