@@ -895,13 +895,13 @@ class View:
                "finals_color}{:^6}{end} │ {index_color}{:^7}{end}".replace("{end}", Colors.ENDC)
 
         if len(self._model.players) == 0:
-            print("\n{:^l}".replace("l", str(len(header))).format(
-                Colors.RED + Colors.BOLD + "No players found" + Colors.ENDC))
+            print("\n{:^106}".format(
+                Colors.RED + Colors.BOLD + "No players found" + Colors.ENDC), end="")
         else:
             for player in self._model.players:
                 print(player.to_string(form))
             playertext = "Players: " + str(len(self._model.players))
-            print("\n{:^l}".replace("l", str(len(header))).format(Colors.GREEN + Colors.BOLD + playertext + Colors.ENDC))
+            print("\n{:^106}".format(Colors.GREEN + Colors.BOLD + playertext + Colors.ENDC), end="")
 
     @staticmethod
     def _sep_line(header):
