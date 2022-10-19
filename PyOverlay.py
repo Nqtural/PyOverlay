@@ -3,7 +3,7 @@ from __future__ import annotations
 # VERSION variable MUST be on the 4th line always
 VERSION = 1.27
 
-try:  # installing and importing all the needed packages
+try:  # Installing and importing all the needed packages
     import math
     import json
     import os
@@ -69,12 +69,12 @@ except Exception as e:
     print("The overlay will attempt to run but is more likely to encounter issues")
 
 # Todo: Remove error messages with ctrlc
-# Todo: sort the public methods before the private ones for better readability
-# Todo: add this config system I just take the highest stars, fkdr, bblr, and wlr and winstreak, make that 100% and then figure out where everyone else sits based on that scale
-# Todo: add an option to change this
+# Todo: Sort the public methods before the private ones for better readability
+# Todo: Add this config system I just take the highest stars, fkdr, bblr, and wlr and winstreak, make that 100% and then figure out where everyone else sits based on that scale
+# Todo: Add an option to change this
 # Todo: Move most important classes to top
-# Todo: display different top message depending on client
-# toDo: Connecting to bedwarspractice.club, 25565
+# Todo: Connecting to bedwarspractice.club, 25565
+# Todo: Fix first letter of name getting removed when being the first player to join a lobby as MVP++
 
 MOJANG_API_PLAYER_LIMIT = 10
 
@@ -335,8 +335,8 @@ class Model:
     is added to the log file
     """
 
-    def __init__(self, file_path: str, client_: str, api_key: str = None):
-        self.api_key = api_key  # hypixel api key
+    def __init__(self, log_file_path: str, client_: str, api_key: str = None):
+        self.api_key = api_key  # Hypixel api key
         self.client: str = client_
         self.on_server = ""
 
@@ -346,14 +346,14 @@ class Model:
         self._players_joined = 0
         self._players_left = 0
 
-        self.players: List[Player] = []  # players in current lobby
-        self._cache: List[Player] = []  # cache storing all the known player's data to reduce the amount of
+        self.players: List[Player] = []  # Players in current lobby
+        self._cache: List[Player] = []  # Cache storing all the known player's data to reduce the amount of
         # requests sent to hypixel and mojang
         self._request_threads: List[Thread] = []
 
         self.config_manager = ConfigManager()
         self._view = View(self)
-        self._controller = Controller(self, file_path)
+        self._controller = Controller(self, log_file_path)
         self._controller.run()
 
         if self.api_key is None:
@@ -1157,6 +1157,7 @@ if __name__ == "__main__":
 /_/    \__, /\____/ |___/\___/_/  /_/\__,_/\__, /
       /____/                              /____/""" + Colors.BLUE + " v" + str(VERSION) + "\033[0m")
 
+    # Check for new updates
     latest_py_overlay = requests.get(
         "https://raw.githubusercontent.com/Nqtural/PyOverlay/main/PyOverlay.py")
     if latest_py_overlay.status_code == 200:
@@ -1177,6 +1178,7 @@ if __name__ == "__main__":
             else:
                 print("Ignoring update. ")
 
+    # Defining client and log path
     mc_log_path = str(Pathlib.home())
     client = ""
     paths = get_paths()
