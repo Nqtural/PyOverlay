@@ -74,7 +74,6 @@ except Exception as e:
 # Todo: Add an option to change this
 # Todo: Move most important classes to top
 # Todo: Connecting to bedwarspractice.club, 25565
-# Todo: Fix first letter of name getting removed when being the first player to join a lobby as MVP++
 
 MOJANG_API_PLAYER_LIMIT = 10
 
@@ -967,13 +966,13 @@ class JoinObserver(FileObserver):
         for line in observable.new_lines:
             if line.lower().startswith("online: "):
                 logging.info("Joined new queue!")
-                self._model.joined_new_queue(line.strip("ONLINE: ").split(", "))
+                self._model.joined_new_queue(line.strip("ONLINE:").replace(" ", "").split(","))
             elif line.startswith("Players in this game: "):
                 logging.info("Joined Bedwraspractice lobby")
                 self._model.joined_new_queue(line.strip("Players in this game: ").split(" "))
             elif " has joined" in line.lower():
                 name = line.split(" ")[0]
-                logging.info(name + "joined the queue!")
+                logging.info(name + " joined the queue!")
                 self._model.add_player(name)
 
 class LeaveObserver(FileObserver):
