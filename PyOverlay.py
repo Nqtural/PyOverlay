@@ -876,6 +876,9 @@ class View:
 
     @clear_screen
     def stat_table(self):
+
+        self.hide_cursor()
+
         self.runtime_stats()
 
         if len(self._model.players) > 1:
@@ -910,6 +913,21 @@ class View:
             split_up_header[index] = "─" * len(content)
         print("┼".join(i for i in split_up_header))
 
+    def hide_cursor(self):
+        """
+        Turns the cursor off in the terminal.
+        """
+
+        if not sys.platform == 'win32':
+            sys.stdout.write('\033[?25l')
+
+    def show_cursor():
+        """
+        Turns the cursor on in the terminal.
+        """
+
+        if not sys.platform == 'win32':
+            sys.stdout.write('\033[?25h')
 
 class Observer(ABC):
     """
@@ -1140,7 +1158,7 @@ if __name__ == "__main__":
       /____/                              /____/""" + Colors.BLUE + " v" + str(VERSION) + "\033[0m")
 
     latest_py_overlay = requests.get(
-        "https://raw.githubusercontent.com/Kopamed/PyOverlay/main/PyOverlay.py")
+        "https://raw.githubusercontent.com/Nqtural/PyOverlay/main/PyOverlay.py")
     if latest_py_overlay.status_code == 200:
         latest_py_overlay = latest_py_overlay.text
         latest_version = float(latest_py_overlay.split("\n")[3].split(" = ")[-1])
