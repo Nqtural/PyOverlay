@@ -868,10 +868,8 @@ class View:
     @clear_screen
     def no_api_key(self):
         self.runtime_stats()
-        print(Colors.RED + "No API key found! Run "
-              + Colors.ENDC + Colors.BOLD + "/api new"
-              + Colors.RED + " on hypixel to generate a key"
-              + Colors.ENDC)
+        print(Colors.RED + "No API key found!" + Colors.ENDC)
+        self._model.new_api_key(input(Colors.GREEN + "New API Key: " + Colors.ENDC))
 
     @clear_screen
     def stat_table(self):
